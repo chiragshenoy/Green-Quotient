@@ -4,6 +4,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        />
+
+
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
@@ -11,3 +23,4 @@
         class="com.google.android.gms.maps.MapFragment" />
 
 </RelativeLayout>
+
